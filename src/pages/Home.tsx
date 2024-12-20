@@ -1,14 +1,15 @@
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { FaDiscord } from 'react-icons/fa';
 import SocialLink from '../components/SocialLink';
 
 const Home = () => {
   return (
     <div className="text-center w-full">
       <img
-  src="https://tools.corenexis.com/image/cnxm/M24/12/50d4fc2162.webp"
-  alt="Profile"
-  className="w-36 h-38 rounded-full mx-auto mb-8 border-4 border-white dark:border-gray-800 shadow-lg"/>
+        src="https://tools.corenexis.com/image/cnxm/M24/12/50d4fc2162.webp"
+        alt="Profile"
+        className="w-36 h-38 rounded-full mx-auto mb-8 border-4 border-white dark:border-gray-800 shadow-lg" />
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
         Mokshit Gala
       </h1>
@@ -21,7 +22,9 @@ const Home = () => {
       <div className="flex justify-center space-x-10">
         <SocialLink href="https://github.com/mokshitgala15" icon={Github} label="GitHub" />
         <SocialLink href="https://www.linkedin.com/in/mokshitgala/" icon={Linkedin} label="LinkedIn" />
-        <SocialLink href="mailto:mokshitgala@gmail.com" icon={Mail} label="Email" />
+        <SocialLink href="https://x.com/MokshitGala" icon={Twitter} label="Twitter" />
+        <SocialLink href="mailto:mokshitgala15@gmail.com" icon={Mail} label='Mail'/>
+
       </div>
     </div>
   );
