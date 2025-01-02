@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="text-center w-full">
       <img
-        src="https://tools.corenexis.com/image/cnxm/M24/12/50d4fc2162.webp"
+        src="https://drive.google.com/file/d/1sHanDDCk0KOBUmkptPGAFmvMA_loRIzK/view?usp=sharing"
         alt="Profile"
         className="w-36 h-38 rounded-full mx-auto mb-8 border-4 border-white dark:border-gray-800 shadow-lg" />
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
