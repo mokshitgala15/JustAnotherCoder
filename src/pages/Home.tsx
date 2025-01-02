@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="text-center w-full">
       <img
-        src="https://drive.google.com/file/d/1sHanDDCk0KOBUmkptPGAFmvMA_loRIzK/view?usp=sharing"
+        src="https://i.imgur.com/358tbZY.jpeg"
         alt="Profile"
         className="w-36 h-38 rounded-full mx-auto mb-8 border-4 border-white dark:border-gray-800 shadow-lg" />
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
