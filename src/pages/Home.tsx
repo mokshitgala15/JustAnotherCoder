@@ -1,6 +1,5 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
-import { FaDiscord } from 'react-icons/fa';
 import SocialLink from '../components/SocialLink';
 
 const Home = () => {
