@@ -25,7 +25,7 @@ const Projects = () => {
       image: 'https://studyfinds.org/wp-content/uploads/2023/04/Skin-cancer-scaled.jpeg',
       tech: ['scikit-learn', 'TensorFlow'],
       github: 'https://github.com/mokshitgala15/Skin-Cancer-Classification',
-      live: 'https://project3.com',
+      live: 'https://skinvision-ai.onrender.com/',
     },
     {
       title: 'ARchitexa',
