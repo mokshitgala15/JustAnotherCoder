@@ -2,6 +2,7 @@ import React from 'react';
 import { Sun, Moon, Home, User, Briefcase, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../hooks/useTheme';
+import { Analytics } from "@vercel/analytics/react"
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const { theme, toggleTheme } = useTheme();
